@@ -1,0 +1,14 @@
+.receiveApp {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 50px;
+  font-family: monospace, sans-serif;
+  padding: 25px 5px;
+  border: solid 1px green;
+  border-radius: 4px;
+}
+
+.receiveMessage {
+  color: #ccc;
+}

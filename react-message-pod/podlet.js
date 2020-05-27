@@ -13,7 +13,7 @@ const podlet = new Podlet({
   development: true, // optional, defaults to false
 });
 
-// Read the asset manifest
+// Read the asset manifest using the node filesystem
 let rawdata = fs.readFileSync("build/asset-manifest.json");
 let assets = JSON.parse(rawdata);
 
